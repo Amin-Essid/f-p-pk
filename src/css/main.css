@@ -2,9 +2,10 @@
 
 /* ******************************************************** */
 
-/* body {
+html {
   background: #f6f6f6;
-} */
+  font-family: "Raleway", sans-serif;
+}
 
 p {
   font-size: 16px;
@@ -36,13 +37,16 @@ h2 {
 
 .product_section {
   background: #f6f6f6;
-  position: relative;
-  display: block;
   width: 100%;
-  height: 100vh;
+  height: auto;
   padding-top: 22px;
-  /* padding-bottom: 100px; */
 }
+
+/* @media only screen and (max-width: 768px) {
+  .product_section {
+
+  }
+} */
 
 .product_info {
   width: 100%;
@@ -71,10 +75,8 @@ h2 {
 
 .product_fields {
   width: 100%;
-  height: 120px;
-  position: relative;
-  display: block;
   margin: 0;
+  height: auto;
   padding-bottom: 18px;
   padding-top: 18px;
 }
