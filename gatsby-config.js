@@ -1,7 +1,7 @@
 module.exports = {
-  siteMetadata: {
-    title: ".",
-  },
+  // siteMetadata: {
+  //   title: ".",
+  // },
   plugins: [
     // {
     //   resolve: "gatsby-plugin-google-analytics",
