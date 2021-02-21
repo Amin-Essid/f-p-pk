@@ -3,16 +3,17 @@ module.exports = {
     title: ".",
   },
   plugins: [
-    {
-      resolve: "gatsby-plugin-google-analytics",
-      options: {
-        trackingId: "",
-      },
-    },
+    // {
+    //   resolve: "gatsby-plugin-google-analytics",
+    //   options: {
+    //     trackingId: "",
+    //   },
+    // },
     "gatsby-plugin-sharp",
     "gatsby-plugin-react-helmet",
     "gatsby-plugin-sitemap",
     "gatsby-plugin-offline",
+    "gatsby-plugin-preload-fonts",
     {
       resolve: "gatsby-plugin-manifest",
       options: {
@@ -37,6 +38,13 @@ module.exports = {
         path: "./src/pages/",
       },
       __key: "pages",
+    },
+    `gatsby-transformer-json`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `./src/data/`,
+      },
     },
   ],
 };

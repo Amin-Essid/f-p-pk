@@ -1,0 +1,22 @@
+[
+  {
+    "title": "Ingredients",
+    "desc": "Acid sodium pyrophosphate (E450a) , sodium hydrogen carbonate (E500), corn starch, wheat flour.",
+    "img": "ingredientsImg"
+  },
+  {
+    "title": "Saklama Koşulları",
+    "desc": "The shelf life is 2 years if stored in a cool and dry place.",
+    "img": "saklamaImg"
+  },
+  {
+    "title": "Recommend Usage",
+    "desc": "10 g for 0,5 kg of flour.",
+    "img": "recommendUsageImg"
+  },
+  {
+    "title": "Packaging",
+    "desc": "12x48x10 g bags.",
+    "img": "packagingImg"
+  }
+]
